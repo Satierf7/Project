@@ -1,0 +1,35 @@
+@charset "utf-8";
+/* CSS Document */
+
+#painel{background-size: 100%;background-repeat: no-repeat;position:absolute;width:80%;}
+
+a:link {text-decoration: none;color: #333333}
+a:active {text-decoration: none;}
+a:visited {text-decoration: none;color: #333333}
+a:hover {text-decoration:none;color: #FFF}
+
+#bar_{background-image:url(../img/bar_g.jpg);width:100%;heigth:40px;}
+.bar_:hover{background-image:url(../img/bar_h_over.jpg);text-shadow:#FFF;}
+
+#block1 {position:absolute;width: 58%;left:2%; top:120%;}
+#op_avancada_p{}
+#op_basica_idavolta{position: absolute; left: 250px; top: 10px;}
+.btdata{position: absolute;left: 100px; top:36px}
+.btdata2{position: absolute;left: 100px; top:86px}
+    /*.div_volta{position: absolute; left: 0px;top:53%;}*/
+    #save_opv{}
+.op_avancada_1{position: absolute; left:250px;top:175px}
+#block2 {display: none;position:absolute;width: 58%;left:2%; top:120%;}
+ .dest_volta{position: absolute;left: 250px;top:-16px;}
+#block3 {display: none;position:absolute;width: 58%;left:2%; top:120%;}
+.criancaH{position: absolute; left:75px;top:161px}
+#op_avancada_p{display: none; top:220px;}
+#op_avancada_fecha{display: none;}
+
+/* formatação da data */
+    .dia {font-family: helvetica, arial; font-size: 8pt; color: #FFFFFF}
+    .data {font-family: helvetica, arial; font-size: 8pt; text-decoration:none; color:#191970}
+    .mes {font-family: helvetica, arial; font-size: 8pt}
+    .Cabecalho_Calendario {font-family: helvetica, arial; font-size: 10pt; color: #000000; text-decoration:none; font-weight:bold}
+/*fim formatação data*/
+ 
